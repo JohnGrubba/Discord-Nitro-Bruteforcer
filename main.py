@@ -58,7 +58,7 @@ with open("GeneratedCodes.txt") as f:
             print(" YOU GOT ONE! | {} ".format(line.strip("\n")))
             break
         elif r.status_code == 429:
-            print("Too many requests! Rate Limit! Proxy Feature will come in the V2!")
+            print("Too many requests! Rate Limit!")
         else:
         	print(" Invalid | {} | ".format(line.strip("\n")), x)
 print("Checked all Codes! No one was working! I'm sorry... ")
