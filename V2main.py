@@ -50,4 +50,4 @@ for n in range(int(num)):
   x = x + 1
   
 print("-------------------------")
-print("Checked",x,"Codes!")
+print("Checked",x,"Codes!")       
