@@ -30,6 +30,9 @@ Things added / removed in V2:
 3) Added improved checker!
 4) It will never skip a working code! (There's no way!)
 5) Improved GUI!
+# V3
+Things added in V3:
+1) Made a real GUI! (Has still some bugs)
 
 PS: Use VPN to prevent "Rate Limit" Error Code!
 
