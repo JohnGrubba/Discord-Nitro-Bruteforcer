@@ -29,6 +29,7 @@ Things added / removed in V2:
 2) Added Rate Limit Error Code!
 3) Added improved checker!
 4) It will never skip a working code! (There's no way!)
+5) Improved GUI!
 
 PS: Use VPN to prevent "Rate Limit" Error Code!
 
