@@ -35,4 +35,9 @@ Things added in V3:
 1) Made a real GUI! (Has still some bugs)
 
 PS: Use VPN to prevent "Rate Limit" Error Code!
+# IMPORTANT
+I tried to make a proxy feature but:
+1) It is slow as hell! Would take years for a single code!
+2) Who has that many proxys to bruteforce millions of codes?
+These are the main reasons i won't update anymore!
 
