@@ -29,6 +29,10 @@ Things added / removed in V2:
 # V3
 Things added in V3:
 1) Made a real GUI! (Has still some bugs)
+# V4
+1) Made it run continousely! (At the start just enter a VERY HIGH number!)
+2) Checks as fast as possible!
+3) There is a Chance of getting a Code within 24 hours!
 
 PS: Use VPN to prevent "Rate Limit" Error Code!
 # IMPORTANT
