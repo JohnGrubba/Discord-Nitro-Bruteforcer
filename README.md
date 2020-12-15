@@ -18,7 +18,6 @@ I recommend using V2!
 # V1
 1) Generating random Discord Nitro Gift Keys and saving them into a .txt File!
 2) Then checking these codes!
-3) Very unsafe checker! It says INVALID, even if there is no internet connection or it hasn't even checked it yet!
 4) Working fast and non Stop! (May skip working codes!)
 # V2
 Things added / removed in V2:
