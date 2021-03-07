@@ -104,7 +104,7 @@ def Start():
 
       title = f"-- DISCORD NITRO BRUTEFORCER -- Threads started: {count} Currently Active Threads: {active_count()}"
       if "win" in sys.platform:
-          os.system("title" + title)
+          os.system("title " + title)
       elif "linux" in sys.platform or "darwin" in sys.platform:
           os.system("echo -ne '\033]0;" + title + "\007'")
 Start()
