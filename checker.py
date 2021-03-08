@@ -1,3 +1,4 @@
+import sys
 import random, string
 import time	
 import requests	
@@ -50,7 +51,11 @@ def Checker():
     print("\033[91m INVALID |",nitro + '\033[0m')
   return
 
-os.system("cls")	
+if "win" in sys.platform:
+    os.system("cls")
+elif "linux" in sys.platform or "darwin" in sys.platform:
+    os.system("clear")
+	
 print("""	
 ███╗░░██╗██╗████████╗██████╗░░█████╗░	
 ████╗░██║██║╚══██╔══╝██╔══██╗██╔══██╗	
@@ -96,6 +101,11 @@ def Start():
     if active_count() < threadnum:
       Thread(target=Checker).start()
       count += 1
-      os.system(f"title -- DISCORD NITRO BRUTEFORCER -- Threads started: {count} Currently Active Threads: {active_count()}")
+
+      title = f"-- DISCORD NITRO BRUTEFORCER -- Threads started: {count} Currently Active Threads: {active_count()}"
+      if "win" in sys.platform:
+          os.system("title " + title)
+      elif "linux" in sys.platform or "darwin" in sys.platform:
+          os.system("echo -ne '\033]0;" + title + "\007'")
 Start()
 
