@@ -51,9 +51,9 @@ def Checker():
     print("\033[91m INVALID |",nitro + '\033[0m')
   return
 
-if "win" in sys.platform:
+if "linux" in sys.platform or "darwin" in sys.platform:
     os.system("cls")
-elif "linux" in sys.platform or "darwin" in sys.platform:
+elif "win" in sys.platform:
     os.system("clear")
 	
 print("""	
@@ -103,9 +103,9 @@ def Start():
       count += 1
 
       title = f"-- DISCORD NITRO BRUTEFORCER -- Threads started: {count} Currently Active Threads: {active_count()}"
-      if "win" in sys.platform:
-          os.system("title " + title)
-      elif "linux" in sys.platform or "darwin" in sys.platform:
+      if "linux" in sys.platform or "darwin" in sys.platform:
           os.system("echo -ne '\033]0;" + title + "\007'")
+      elif "win" in sys.platform:
+          os.system("title " + title)
 Start()
 
